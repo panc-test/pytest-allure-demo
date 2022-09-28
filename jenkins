@@ -1,0 +1,55 @@
+Microsoft Windows [版本 10.0.19044.2006]
+(c) Microsoft Corporation。保留所有权利。
+
+E:\jenkins>java -jar jenkins.war --httpPort=8080
+九月 27, 2022 11:10:15 上午 Main verifyJavaVersion
+警告: You are running Jenkins on Java 1.8, support for which will end on or after September 1, 2022.
+Please refer to the documentation for details on upgrading to Java 11: https://www.jenkins.io/redirect/upgrading-jenkins-java-version-8-to-11
+Running from: E:\jenkins\jenkins.war
+webroot: $user.home/.jenkins
+2022-09-27 03:10:16.273+0000 [id=1]     INFO    org.eclipse.jetty.util.log.Log#initialized: Logging initialized @1517ms to org.eclipse.jetty.util.log.JavaUtilLog
+2022-09-27 03:10:16.435+0000 [id=1]     INFO    winstone.Logger#logInternal: Beginning extraction from war file
+2022-09-27 03:10:21.555+0000 [id=1]     WARNING o.e.j.s.handler.ContextHandler#setContextPath: Empty contextPath
+2022-09-27 03:10:21.662+0000 [id=1]     INFO    org.eclipse.jetty.server.Server#doStart: jetty-9.4.45.v20220203; built: 2022-02-03T09:14:34.105Z; git: 4a0c91c0be53805e3fcffdcdcc9587d5301863db; jvm 1.8.0_271-b09
+2022-09-27 03:10:22.918+0000 [id=1]     INFO    o.e.j.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2022-09-27 03:10:23.007+0000 [id=1]     INFO    o.e.j.s.s.DefaultSessionIdManager#doStart: DefaultSessionIdManager workerName=node0
+2022-09-27 03:10:23.008+0000 [id=1]     INFO    o.e.j.s.s.DefaultSessionIdManager#doStart: No SessionScavenger set, using defaults
+2022-09-27 03:10:23.011+0000 [id=1]     INFO    o.e.j.server.session.HouseKeeper#startScavenging: node0 Scavenging every 660000ms
+2022-09-27 03:10:23.985+0000 [id=1]     INFO    hudson.WebAppMain#contextInitialized: Jenkins home directory: C:\Users\057776\.jenkins found at: $user.home/.jenkins
+2022-09-27 03:10:24.278+0000 [id=1]     INFO    o.e.j.s.handler.ContextHandler#doStart: Started w.@3591009c{Jenkins v2.346.1,/,file:///C:/Users/057776/.jenkins/war/,AVAILABLE}{C:\Users\057776\.jenkins\war}
+2022-09-27 03:10:24.339+0000 [id=1]     INFO    o.e.j.server.AbstractConnector#doStart: Started ServerConnector@5149d738{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2022-09-27 03:10:24.346+0000 [id=1]     INFO    org.eclipse.jetty.server.Server#doStart: Started @9590ms
+2022-09-27 03:10:24.349+0000 [id=23]    INFO    winstone.Logger#logInternal: Winstone Servlet Engine running: controlPort=disabled
+2022-09-27 03:10:26.321+0000 [id=30]    INFO    jenkins.InitReactorRunner$1#onAttained: Started initialization
+2022-09-27 03:10:26.355+0000 [id=32]    INFO    jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2022-09-27 03:10:27.940+0000 [id=35]    INFO    jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2022-09-27 03:10:27.955+0000 [id=31]    INFO    jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2022-09-27 03:10:27.987+0000 [id=34]    INFO    jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2022-09-27 03:10:29.627+0000 [id=34]    INFO    jenkins.InitReactorRunner$1#onAttained: System config loaded
+2022-09-27 03:10:29.635+0000 [id=31]    INFO    jenkins.InitReactorRunner$1#onAttained: System config adapted
+2022-09-27 03:10:29.640+0000 [id=28]    INFO    jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2022-09-27 03:10:29.643+0000 [id=28]    INFO    jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2022-09-27 03:10:29.720+0000 [id=48]    INFO    hudson.model.AsyncPeriodicWork#lambda$doRun$1: Started Download metadata
+2022-09-27 03:10:29.763+0000 [id=48]    INFO    hudson.util.Retrier#start: Attempt #1 to do the action check updates server
+2022-09-27 03:10:30.583+0000 [id=34]    INFO    jenkins.install.SetupWizard#init:
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+337cfcfc3ace4048af7b5e83e248c5f5
+
+This may also be found at: C:\Users\057776\.jenkins\secrets\initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+2022-09-27 03:10:56.542+0000 [id=35]    INFO    jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2022-09-27 03:10:56.632+0000 [id=22]    INFO    hudson.lifecycle.Lifecycle#onReady: Jenkins is fully up and running
+2022-09-27 03:10:57.567+0000 [id=48]    INFO    h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+2022-09-27 03:10:57.567+0000 [id=48]    INFO    hudson.util.Retrier#start: Performed the action check updates server successfully at the attempt #1
+2022-09-27 03:10:57.573+0000 [id=48]    INFO    hudson.model.AsyncPeriodicWork#lambda$doRun$1: Finished Download metadata. 27,840 ms
