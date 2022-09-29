@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Mon Sep 19 16:56:18 CST 2022","Mon Sep 19 16:56:18 CST 2022","1","testcases","test_demo","","","","test_failure","this test fails"
-"skipped","Mon Sep 19 16:56:19 CST 2022","Mon Sep 19 16:56:19 CST 2022","0","testcases","test_demo","","","","test_skip","this test is skipped"
-"passed","Mon Sep 19 16:56:18 CST 2022","Mon Sep 19 16:56:18 CST 2022","1","testcases","test_demo","","","","test_success","this test succeeds"
-"broken","Mon Sep 19 16:56:19 CST 2022","Mon Sep 19 16:56:19 CST 2022","0","testcases","test_demo","","","","test_broken",""
